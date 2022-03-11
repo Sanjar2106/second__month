@@ -5,9 +5,7 @@ while(i.length<=7){
 }
 
 
-let num = 0
-while (num < 100) {
-    num++
+for (var num=1; num<101; num++) {
 
     if (num % 5 === 0 && num % 3 === 0) {
         console.log(num, ' FizzBuzz')
@@ -19,3 +17,4 @@ while (num < 100) {
         console.log(num, );
     }
 }
+
