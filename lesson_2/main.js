@@ -69,26 +69,26 @@ const array = [
 // }
 
 
-const users = [
-    {
-        username: 'Jake',
-        salary: 500
-    },
-    {
-        username: 'john',
-        salary: 5000
-    },
-    {
-        username: 'vito',
-        salary: 1000
-    }
-];
+// const users = [
+//     {
+//         username: 'Jake',
+//         salary: 500
+//     },
+//     {
+//         username: 'john',
+//         salary: 5000
+//     },
+//     {
+//         username: 'vito',
+//         salary: 1000
+//     }
+// ];
 
-const filter = [];
+// const filter = [];
 
-for(let user of users) {
-    if(user.salary > 500){
-        filter.push(user)
-    }
-}
-console.log(filter)
+// for(let user of users) {
+//     if(user.salary > 500){
+//         filter.push(user)
+//     }
+// }
+// console.log(filter)

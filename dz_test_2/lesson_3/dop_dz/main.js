@@ -49,10 +49,10 @@ var bestPeople = [
     }
 ]
 // TODO 1
-let SAS = bestPeople.filter (function(bestPeoples){
-    return bestPeoples.name.search('S') != -1;
+let SAS = bestPeople;
+bestPeople.indexOf ("S")
     
-}); 
+
 console.log(SAS)
 
 // TODO 2
