@@ -16,3 +16,7 @@ right.onclick = function() {
     nulll.innerHTML=SAS;
 
 }
+
+
+
+// snake
