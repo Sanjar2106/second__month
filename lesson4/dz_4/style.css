@@ -147,3 +147,10 @@
     content: '';
     
 }
+#reset {
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    transition: 0.3s;
+    
+}
