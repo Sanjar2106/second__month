@@ -7,10 +7,12 @@ let SAS = 0;
 
 left.onclick = function() {
     SAS++;
+    nulll.style.color = "green"
     nulll.innerHTML=SAS;
 }
 right.onclick = function() {
     SAS--;
+    nulll.style.color = "red"
     if (SAS <1){
         SAS=0;
     }
@@ -20,6 +22,7 @@ right.onclick = function() {
 
 reset.onclick = function(){
     SAS=0;
+    nulll.style.color = 'white'
     if (SAS < 1){
         SAS=0;
     }
