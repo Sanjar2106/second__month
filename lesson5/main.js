@@ -8,18 +8,18 @@ const list = [
 const AddButton = document.getElementById("button");
 const input = document.getElementById('input');
 
-function change(id) {
-    const item = list.findIndex(t=> t.id === id)
-    const text = prompt('change');
-    list[item].text = text
-    render();
-}
+// function change(id) {
+//     const item = list.findIndex(t=> t.id === id)
+//     const text = prompt('change');
+//     list[item].text = text
+//     render();
+// }
 
-function deleteObj(id) {
-    const index = list.findIndex(t => t.id === id)
-    list.splice(index, 1)
-    render()
-}
+// function deleteObj(id) {
+//     const index = list.findIndex(t => t.id === id)
+//     list.splice(index, 1)
+//     render()
+// }
 
 function render() {
     const mainDiv = document.createElement('div');
@@ -45,8 +45,8 @@ function render() {
             deleteObj(list[i].id)
         }
         deleteButton.innerText = 'delete'
-        buttons.append(changeButton, deleteButton);
-        div.append(buttons);
+        // buttons.append(changeButton, deleteButton);
+        // div.append(buttons);
         mainDiv.append(div);
         
         
