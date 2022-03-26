@@ -1,8 +1,8 @@
-const a = 'a';
-const b = 'b';
-const c = 'c';
-const d = 'd';
-const e = 'e';
+const a = ['a'];
+const b = ['b'];
+const c = ['c'];
+const d = ['d'];
+const e = ['e'];
 
 const all ={
     ...a, b, c, d, e,
@@ -60,3 +60,4 @@ knopka.onclick = function() {
     list.push(obj);
     render()
 }
+
